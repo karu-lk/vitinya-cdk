@@ -1,0 +1,11 @@
+
+
+build/
+dist/
+node_modules/
+cdk.out/
+types/
+aws-exports.js
+awsconfiguration.json
+.secret-*
+**.sample

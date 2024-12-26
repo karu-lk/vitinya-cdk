@@ -1,0 +1,25 @@
+type CoffeeOrder{
+  id: ID!
+  coffee: String!
+  name: String!
+  mobileNumber:String!
+}
+
+input CoffeeOrderInput{
+  id: ID!
+  coffee: String!
+  name: String!
+  mobileNumber:String!
+}
+
+type Query {
+  listOrders: [CoffeeOrder]
+}
+
+type Mutation {
+  createOrder(newOrder: CoffeeOrderInput!): CoffeeOrder
+}
+
+type Subscription {
+  onCreateOrder: CoffeeOrder @aws_subscribe(mutations: ["createOrder"])
+}

@@ -1,0 +1,4 @@
+"use strict";
+test('SQS Queue Created', () => {
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwc3luYy1zZXJ2ZXJsZXNzLXN0YWNrLnRlc3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhcHBzeW5jLXNlcnZlcmxlc3Mtc3RhY2sudGVzdC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsSUFBSSxDQUFDLG1CQUFtQixFQUFFLEdBQUcsRUFBRTtBQUMvQixDQUFDLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbInRlc3QoJ1NRUyBRdWV1ZSBDcmVhdGVkJywgKCkgPT4ge1xufSk7XG5cbiJdfQ==
